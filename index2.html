@@ -1,0 +1,112 @@
+<!-- 
+Delara que es un documento HTML5
+, no es una etiqueta es una instruccion
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Siempre va a contener todos los metadatos, todos los imports y configuracion de la pagina-->
+    <meta charset="UTF-8">
+
+    <!-- Este tipo de directivas ayudan al posicionamiento del sitio/web
+      , ayuda a ser mejor rastreada e indexeada-->
+    <meta name="description" content="Pagian web para la materia de Aplicaciones web">
+
+    <!-- Este es el inicio para aplicaciones responsivas/adaptables a pantalla -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Una página web mas</title>
+</head>
+
+<body>
+    <!-- Contenido visible -->
+    hola mundo
+
+    <!-- Los tags/etiquetas importantes-->
+    <!-- Los titulos -->
+    <h1>Titulo 1</h1> <!-- Lo recomendable es solo usar 1 -->
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+    <!-- Parrafos y divisiones -->
+    <p>
+        Este es un parrafo y sirve para emparrafar un texto
+    </p>
+    <div>
+        Este es un divicion y sirve para colocar texto
+    </div>
+
+    <br> <!-- Salto de linea -->
+    <br /> <!-- Salto de linea -->
+
+    <center> <!-- Esto no deberia EXISTIR -->
+        Hay un aregla no escrita que dice: NO debe existir nada fuera de una etiqueta
+    </center>
+
+    <!-- Listas (Desordenadas y Ordenadas)-->
+    <!--Ordenadas --> <!-- Viñetas -->
+    <ul> <!-- Unordened List -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+
+    <!-- Desordenadas --> <!-- Números -->
+    <ol> <!-- Ordened List -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ol>
+
+    <!-- Enlaces o Vinculos -->
+    <br><a href="#">
+        <b><i>Contenido: </i></b>
+    </a>
+
+    <br><a href="https://www.google.com">
+        <!-- Este vinculo abre el contenido en la misma pestaña -->
+        <i> Gululu </i>
+    </a>
+
+    <br><a href="https://www.google.com" target="_blank">
+        <!-- Este vinculo abre el contenido en otra pestaña -->
+        <b> Gululu blank </b>
+    </a>
+
+    <!-- Existen dos tipos de rutas/referencias 
+        Relativas y Absolutas (Suaves y Duras) -->
+    <br><a href="./view/vista01.html"> vista 01 </a> <!-- Relativa -->
+    <br><a href="/C:/Users/fabia/Desktop/Proyecto_02/view/vista01.html"> vista 01 </a> <!-- Absoluta -->
+    <br>
+
+    <!-- Imagenes -->
+    <!-- Este es un tag autocosteable, no usa </img> por defecto-->
+    <!-- scr -> source -> fuente -> origen -->
+    <!-- alt -> alternative -> alternativa -> alterno -->
+    <!-- alt -> alternative -> alternativa -> alterno -->
+    <br><img src="./resources/pequeño_pony_feliz.webp" alt="Este es un pequeño pony feliz" />
+    <br><img src="./resources/pequeño_pony_feliz.webp" alt="Este es un pequeño pony feliz" width="100px" />
+    <br><img src="./resources/pibble_abeja.jpg" alt="Este es un pequeño pibble abeja" width="100px" />
+    <br><img src="./resources/pibble_fluttershy.jpg" alt="Este es un pequeño pibble fluttershy" width="100px" />
+
+    <!-- Los atributos mas importamtes -->
+    <!-- id: Genera un identificador en cada componente o tag -->
+    <!-- name: Genera un nombre en cada componente o tag -->
+    <!-- Class: Agrupa los componentes en clases, se ocupa para agregar estilos -->
+    <!-- src: Especifica la ruta de la imagen -->
+    <!-- alt: Proporciona una descripción alternativa de la imagen -->
+    <!-- width y height: Establecen el ancho y alto de la imagen -->
+
+
+
+</body>
+
+</html>
